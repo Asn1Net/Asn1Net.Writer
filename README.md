@@ -1,4 +1,6 @@
 # Asn1Net.Writer
+[![Build status](https://ci.appveyor.com/api/projects/status/6qixi5gio2kimlqf?svg=true)](https://ci.appveyor.com/project/PeterPolacko/asn1net-writer)
+
 Managed library for writing ASN.1 objects.
 
 ## Getting started ##
