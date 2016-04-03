@@ -1,10 +1,13 @@
 <Dictionary>
-   <Words>
-      <Recognized>
-         <Word>asn</Word>
-         <Word>Ia</Word>        
-         <Word>Oid</Word>
-         <Word>Utils</Word>      
-      </Recognized>
-   </Words>
+  <Words>
+    <Recognized>
+      <Word>asn</Word>
+      <Word>Eoc</Word>
+      <Word>Ia</Word>
+      <Word>Oid</Word>
+      <Word>Pdv</Word>
+      <Word>Utils</Word>
+      <Word>Videotex</Word>
+    </Recognized>
+  </Words>
 </Dictionary>

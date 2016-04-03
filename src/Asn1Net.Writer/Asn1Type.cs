@@ -18,11 +18,14 @@
  *  Peter Polacko <peter.polacko+asn1net@gmail.com>
  */
 
+using System;
+
 namespace Net.Asn1.Writer
 {
     /// <summary>
     /// Enumeration of possible ASN.1 universal class tags in Identifier octet.
     /// </summary>
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1027:MarkEnumsWithFlags", Justification = "Not combinable")]
     public enum Asn1Type
     {
         /// <summary>
