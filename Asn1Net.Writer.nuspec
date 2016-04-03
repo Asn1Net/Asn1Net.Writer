@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Asn1Net.Writer</id>
+    <version>1.0.0.0</version>
+    <title>Asn1Net.Writer</title>
+    <authors>Peter Polacko</authors>
+    <owners>Peter Polacko</owners>
+    <licenseUrl>https://github.com/Asn1Net/Asn1Net.Writer/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/Asn1Net/Asn1Net.Writer</projectUrl>
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Managed library for writing ASN.1 objects.</description>
+    <releaseNotes />
+    <copyright>Copyright © 2016 The Asn1Net Project</copyright>
+    <tags>ASN.1 asn1 writer DER</tags>
+  </metadata>
+</package>
