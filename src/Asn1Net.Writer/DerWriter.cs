@@ -79,7 +79,14 @@ namespace Net.Asn1.Writer
             }
             else
             {
-                lengthOctets = BitConverter.GetBytes(length); // TODO: fix incorrect length computation
+                var lengthValueOctets = BitConverter.GetBytes(length); // TODO: fix incorrect length computation
+
+                lengthValueOctets = lengthValueOctets.Reverse().SkipWhile(p => p == 0x00).ToArray();
+
+                byte firstLengthByte = (byte)(0x80 | lengthValueOctets.Length);
+                lengthOctets = new byte[lengthValueOctets.Length + 1];
+                lengthOctets[0] = firstLengthByte;
+                Array.Copy(lengthValueOctets, 0, lengthOctets, 1, lengthValueOctets.Length);
             }
 
             return lengthOctets;
